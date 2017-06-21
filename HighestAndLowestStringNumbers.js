@@ -12,7 +12,7 @@
 */
 
 function highAndLow(numbers){
-	var _nums = numbers.split(" ");
-	_nums.sort(function(a,b){return a - b})
-	return _nums[_nums.length - 1] + ' ' + _nums[0];  
+  var _nums = numbers.split(" ");
+  _nums.sort(function(a,b){return a - b})
+  return _nums[_nums.length - 1] + ' ' + _nums[0];  
 }
