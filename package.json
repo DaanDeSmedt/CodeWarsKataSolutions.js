@@ -1,0 +1,28 @@
+{
+  "name": "codewars-javascript-solutions",
+  "description": "A Codewars JavaScript solution repo",
+  "scripts": {
+    "gen-kata-solution": "node --no-warnings ./generators/kata-solution-generator.js --id"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaanDeSmedt/CodeWarsKataSolutions.js.git"
+  },
+  "keywords": [
+    "codewars",
+    "solutions",
+    "javascript"
+  ],
+  "author": "Daan De Smedt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaanDeSmedt/CodeWarsKataSolutions.js/issues"
+  },
+  "homepage": "https://github.com/DaanDeSmedt/CodeWarsKataSolutions.js#readme",
+  "dependencies": {
+    "node-fetch": "^2.0.0",
+    "remove-markdown": "^0.3.0",
+    "sanitize-filename": "^1.6.3",
+    "yargs": "^17.4.0"
+  }
+}

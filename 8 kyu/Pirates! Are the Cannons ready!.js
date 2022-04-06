@@ -1,0 +1,18 @@
+/**
+ * 
+ * Ahoy Matey!
+ * Your task is to check if the gunners are loaded and ready, if they are: Fire!
+ * Your gunners for each test case are 2, 3 or 4. 
+ * When you check if they are ready their answers are in a dictionary and will either be: aye or nay 
+ * Firing with less than all gunners ready is non-optimum (this is not fire at will, this is fire by the captain's orders or walk the plank, dirty sea-dog!)
+ * If all answers are 'aye' then Fire! if one or more are 'nay' then Shiver me timbers!
+ * 
+ * URL : https://www.codewars.com/kata/5748a883eb737cab000022a6/train/javascript
+ * 
+ */
+
+const cannonsReady = (gunners) => {
+  return
+   Object.values(gunners).every(response => response === 'aye')  ? 'Fire!'
+    : 'Shiver me timbers!'
+}
